@@ -19,6 +19,9 @@ You can also change the 'in_{}.png' and 'out_{}.png' to whatever you want to nam
 
 '''
 new_image.save("comparison_{}.png".format(str(identifier)),"PNG")
+#new_image.show()
 '''
 
 This line is what the file saves the combined output as. It again replaces the '{}' with the number from the list at the top (range(1,7)). You could make it whatever you want as well.
+
+If you uncomment the #new_image.show() line it will show you the output too.
