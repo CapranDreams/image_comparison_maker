@@ -24,3 +24,6 @@ new_image.save("comparison_{}.png".format(str(identifier)),"PNG")
 This line is what the file saves the combined output as. It again replaces the '{}' with the number from the list at the top (range(1,7)). You could make it whatever you want as well.
 
 If you uncomment the #new_image.show() line it will show you the output too.
+
+Example output:
+![Combined Image](https://github.com/CapranDreams/image_comparison_maker/blob/master/example/comparison_1.png)
